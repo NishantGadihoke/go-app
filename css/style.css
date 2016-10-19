@@ -91,7 +91,18 @@ header#masthead {
   padding: 35vh 0;
   border-bottom: 1px solid #ddd;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  transition: all 0.6s ease; }
+  header#masthead .seach-contain {
+    width: 700px;
+    margin: 0 auto;
+    display: block; }
+  header#masthead h1.logo {
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 4em;
+    font-weight: 800; }
   header#masthead input#search {
     padding: 20px;
     font-size: 0.9em;
@@ -102,4 +113,5 @@ header#masthead {
     outline: none;
     width: 600px;
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    text-transform: capitalize; }

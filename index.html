@@ -16,11 +16,20 @@
         
         <header id="masthead">
         	<div class="container">
-        		<input type="text" placeholder="Where do you want to go today?" id="search">
+        		<div class="search-contain">
+        			<!-- <h1 class="logo">GO.</h1> -->
+        			<input type="text" placeholder="Where do you want to go today?" id="search">
+        		</div>
+        		
         	</div>
         </header>
 
         <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+	      var cities;
+	      function citiesCallback(_cities) { cities = _cities; }
+	    </script>
+        <script src="js/cities.jsonp"></script>
         <script src="js/script.js"></script>
     </body>
 </html>
