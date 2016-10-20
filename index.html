@@ -24,6 +24,25 @@
         	</div>
         </header>
 
+        <main id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="contain contain1">
+                        <h1 class="story">
+                            In am going to <span id="destination"></span> with <input type="number" value="2" max="9"> people, from <input type="date" id="fromDate" value="2016-10-21"> to <input type="date" id="toDate" value="2016-10-26">
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- <div id="map"></div>
+        <div id="right-panel">
+          <h2>Results</h2>
+          <ul id="places"></ul>
+          <button id="more">More results</button>
+        </div> -->
+
         <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
         <script>
 	      var cities;
@@ -31,5 +50,8 @@
 	    </script>
         <script src="js/cities.jsonp"></script>
         <script src="js/script.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcyXzQThukmNTYIIUuYt8mJLNJ1WgoXis&libraries=places&callback=initMap" async defer></script>
+        
+
     </body>
 </html>

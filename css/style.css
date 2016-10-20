@@ -86,13 +86,13 @@ body {
     width: 100%;
     margin-left: 0; } }
 header#masthead {
-  background: url("../img/3.jpeg") center center no-repeat;
+  background: url("https://images.unsplash.com/photo-1424873380396-9580028d74db?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=bfd7cf8f69ccad6c4a2ec98e8377800e") center center no-repeat;
   background-size: cover;
   padding: 35vh 0;
   border-bottom: 1px solid #ddd;
   position: relative;
-  width: 100%;
-  transition: all 0.6s ease; }
+  transition: all 0.8s ease;
+  width: 100%; }
   header#masthead .seach-contain {
     width: 700px;
     margin: 0 auto;
@@ -115,3 +115,42 @@ header#masthead {
     display: block;
     margin: 0 auto;
     text-transform: capitalize; }
+
+main#content {
+  padding: 6vh;
+  background: #f5f5f5;
+  display: none; }
+  main#content h1.story {
+    margin: 0 auto;
+    line-height: 2.6;
+    color: #aaa;
+    font-weight: 100;
+    text-align: center; }
+    main#content h1.story input {
+      font-size: 1em;
+      border: 0;
+      border-bottom: 2px solid #ddd;
+      outline: 0;
+      text-align: center;
+      padding: 2px 5px;
+      margin: 0 10px;
+      font-family: "Source Sans Pro", sans-serif;
+      background: transparent; }
+    main#content h1.story input[type="number"] {
+      width: 60px; }
+    main#content h1.story input[type=number]::-webkit-inner-spin-button,
+    main#content h1.story input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0; }
+    main#content h1.story input[type="date"] {
+      width: 255px; }
+    main#content h1.story input[type="date"]::-webkit-inner-spin-button {
+      display: none; }
+    main#content h1.story input[type="date"]::-webkit-calendar-picker-indicator {
+      background: none;
+      display: none;
+      padding: 0; }
+    main#content h1.story input[type="date"]::-webkit-clear-button {
+      display: none; }
+    main#content h1.story span#destination {
+      color: #000; }
